@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFE6EE" />
+      <stop offset="100%" stop-color="#FFF4D6" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <!-- Left & Right Ears -->
+  <ellipse cx="152" cy="154" rx="46" ry="56" transform="rotate(-24 152 154)" fill="#FF9EB8" stroke="#5A3E36" stroke-width="12" />
+  <ellipse cx="360" cy="154" rx="46" ry="56" transform="rotate(24 360 154)" fill="#FF9EB8" stroke="#5A3E36" stroke-width="12" />
+  <ellipse cx="154" cy="160" rx="24" ry="30" transform="rotate(-24 154 160)" fill="#FFC4D4" />
+  <ellipse cx="358" cy="160" rx="24" ry="30" transform="rotate(24 358 160)" fill="#FFC4D4" />
+  <!-- Head / Body -->
+  <ellipse cx="256" cy="276" rx="148" ry="132" fill="#FFB7CB" stroke="#5A3E36" stroke-width="12" />
+  <!-- Cheeks -->
+  <ellipse cx="154" cy="296" rx="26" ry="16" fill="#FF85A6" opacity="0.65" />
+  <ellipse cx="358" cy="296" rx="26" ry="16" fill="#FF85A6" opacity="0.65" />
+  <!-- Eyes -->
+  <circle cx="192" cy="248" r="16" fill="#4A3531" />
+  <circle cx="187" cy="242" r="6" fill="#FFFFFF" />
+  <circle cx="320" cy="248" r="16" fill="#4A3531" />
+  <circle cx="315" cy="242" r="6" fill="#FFFFFF" />
+  <!-- Snout -->
+  <ellipse cx="256" cy="294" rx="58" ry="40" fill="#FF91AF" stroke="#5A3E36" stroke-width="10" />
+  <ellipse cx="236" cy="294" rx="10" ry="14" fill="#5A3E36" />
+  <ellipse cx="276" cy="294" rx="10" ry="14" fill="#5A3E36" />
+  <!-- Cute Smile -->
+  <path d="M 232 344 Q 256 364 280 344" fill="none" stroke="#5A3E36" stroke-width="10" stroke-linecap="round" />
+  <!-- Mint Bow Accent -->
+  <path d="M 256 154 L 218 134 Q 210 156 220 172 Z" fill="#6CD4B5" stroke="#5A3E36" stroke-width="8" stroke-linejoin="round" />
+  <path d="M 256 154 L 294 134 Q 302 156 292 172 Z" fill="#6CD4B5" stroke="#5A3E36" stroke-width="8" stroke-linejoin="round" />
+  <circle cx="256" cy="154" r="14" fill="#FFE082" stroke="#5A3E36" stroke-width="8" />
+</svg>
